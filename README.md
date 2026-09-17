@@ -2,11 +2,11 @@
 
 The goal is simple:
 
-> **Prove that you can distinguish two differently colored pens without revealing their colors.**
+> **Prove that you can distinguish two different colored pens without revealing their colors**
 
 ## The Idea
 
-Imagine Alice has two pens, one red and one blue, and she wants to prove to Bob that she can distinguish between the two pens without telling him their colors.
+Imagine Alice has two pens, one red and one blue, and she wants to prove to Bob that she can distinguish the two pens without telling him their colors.
 
 ## The Protocol
 
@@ -20,6 +20,6 @@ The key point is that Alice never tells Bob the colors of the pens.
 
 ## Why is this Zero-Knowledge?
 
-Alice proves that she has the **knowledge needed to distinguish the two pens** without revealing the actual information she knows — the colors.
+Alice proves that she has the **knowledge needed to distinguish the two pens** without revealing the colors
 
 The verifier learns that Alice can distinguish the pens, but does not learn which pen is red or blue.
